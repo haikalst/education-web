@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Education Website | Dashboard</title>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icon Scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css" />
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav__container">
+            <a href="./index.html">
+                <h4>EDU MASTER</h4>
+            </a>
+            <ul class="nav__menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./course.html">Course</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>
+                    Kembangkan skill di bidang teknologi untuk kebutuhan karir Anda
+                </h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis amet vitae corporis quo reprehenderit!
+                </p>
+                <a href="./course.html" class="btn btn-primary">Mulai sekarang</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./img/header.svg" alt="Header Image" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Categories Section -->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Kategori</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dolorum dicta, quo numquam natus laboriosam dolorem nam rem molestiae reprehenderit aspernatur consequatur deserunt inventore asperiores.
+                </p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-desktop-alt"></i
+            ></span>
+                    <h5>Computer & Informatics</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-cloud-computing"></i
+            ></span>
+                    <h5>Cloud Computing</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-palette"></i></span>
+                    <h5>UI/UX Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-apps"></i></span>
+                    <h5>Web & Apps Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-robot"></i></span>
+                    <h5>Machine Learning</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-cube"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories Section -->
+
+    <!-- Start Course Section -->
+    <section class="courses">
+        <h2>Kursus Unggulan Kami</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course1.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course2.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course3.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course4.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course5.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image">
+                    <img src="./img/course6.jpg" alt="" />
+                </div>
+                <div class="course__info">
+                    <h4>Komputer Dasar dan Penerapan Aplikasi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quidem corrupti mollitia!
+                    </p>
+                    <a href="./course.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- End Course Section -->
+
+    <!-- Start FAQ Section -->
+    <section class="faqs">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Bagaimana saya memilih kursus yang cocok?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic suscipit qui delectus consectetur facere quis quidem repellendus cumque, vel explicabo accusantium eius minima officia commodi aspernatur tempore placeat!
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- End FAQ Section -->
+
+    <!-- Start Testimonial Section -->
+    <section class="container testimonials__container mySwiper">
+        <h2>Testimoni Para Pengguna</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar1.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Roberto Firmino</h5>
+                    <small>PNS</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar2.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diogo Jota</h5>
+                    <small>Pegawai Swasta</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar3.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sadio Mane</h5>
+                    <small>Freelancer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar4.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Luis Diaz</h5>
+                    <small>Pegawai Restoran</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar5.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jordan Henderson</h5>
+                    <small>Fresh Graduate</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar6.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Thiago Alcantara</h5>
+                    <small>Pengawai Bank</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar7.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Naby Keita</h5>
+                    <small>Guru</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar8.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Joel Matip</h5>
+                    <small>Ojek Online</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar9.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Joe Gomez</h5>
+                    <small>Mahasiswi</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar10.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Virgil Van Dijk</h5>
+                    <small>Supir</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar11.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Andrew Robertson</h5>
+                    <small>Pengusaha Pakaian</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar12.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Trent Alexander Arnold</h5>
+                    <small>Pedagang</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar13.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Alisson Becker</h5>
+                    <small>Pegawai Supermarket</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./img/avatar14.png" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Mohammed Salah</h5>
+                    <small>Mahasiswa</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad, perspiciatis, laborum, adipisci ipsum eos saepe nihil consequatur culpa doloremque explicabo exercitationem incidunt quo.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="#" class="footer__logo">
+                    <h4>EDU MASTER</h4>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga molestias laboriosam.
+                </p>
+            </div>
+            <div class="footer__2">
+                <h4>Permalink</h4>
+                <ul class="permalink">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Courses</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy Policy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Refund</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Kontak Kami</h4>
+                <div>
+                    <p>+0123456789</p>
+                    <p>mail@example.com</p>
+                </div>
+                <ul class="footer__social">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; 2022 - Si Bolang Dev. All Rights Reserved</small
+        >
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
